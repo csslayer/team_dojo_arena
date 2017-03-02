@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container{
+	background: black;
+	width: 970px;
+	/*height: 900px;*/
+	border: 5px solid dimgray;
+	padding: 100px, 200px, 100px, 200px;
+
+}
+header p{
+	color: orange;
+	text-shadow: white;
+}
+
+header{
+	background: gray;
+	height: 200px;
+	width: 300px;
+	border: 2px solid dimgray;
+ 
+}
