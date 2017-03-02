@@ -19,13 +19,14 @@
 			<li id = "matrix">matrix</li>
 			<li id = "snow">snow</li>
 		</ul>
+	<div class="popup">
 		<img src = "beach.jpg" alt = "picture of beach" id = "bpic" style = "display:none;">
 		<img src = "earth.jpg" alt = "picture of beach" id = "ppic" style = "display:none;">
 		<img src = "dojo.jpg" alt = "picture of beach" id = "dpic" style = "display:none;">
 		<img src = "forest.jpg" alt = "picture of beach" id = "fpic" style = "display:none;">
 		<img src = "matrix.jpg" alt = "picture of beach" id = "mpic" style = "display:none;">
 		<img src = "snow.jpg" alt = "picture of beach" id = "spic" style = "display:none;">
-
+  </div>
 		<script>
 			$("#beach").hover(function (){
 				$("#bpic").slideToggle()
@@ -45,8 +46,45 @@
 			$("#snow").hover(function (){
 				$("#spic").slideToggle()
 			})
+			$("#dojo").click(function(){
+				$("#dojo_menu").show()
+			})
 </script>
 	</div>
+
+<div id="container1">
+	<div id="dojo_menu">
+		<p>Select Players</p>
+		<form>
+			<select id ="menu">
+				<option value ="donny"></option>
+				<option value ="leo"></option>
+				<option value ="mikey"></option>
+				<option value ="raphael"></option>
+			</select>
+
+			<select id ="menu1">
+				<option value ="donny"></option>
+				<option value ="leo"></option>
+				<option value ="mikey"></option>
+				<option value ="raphael"></option>
+			</select>
+
+		</form>
+
+
+
+
+
+
+
+
+	</div>
+
+
+</div>
+
+
 
 
 
