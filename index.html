@@ -10,20 +10,47 @@
 <body>
 	<div id="container">
 		<HEADER>
-		<p>Select Arena</p>	
+		<p>Select Arena</p>
 		<ul>
-			<li>beach</li>
-			<li>planet</li>
-			<li>dojo</li>
-			<li>forest</li>
-			<li>matrix</li>
-			<li>snow</li>
-		</ul>		
+			<li id = "beach">beach</li>
+			<li id = "planet">planet</li>
+			<li id = "dojo">dojo</li>
+			<li id = "forest">forest</li>
+			<li id = "matrix">matrix</li>
+			<li id = "snow">snow</li>
+		</ul>
+		<img src = "beach.jpg" alt = "picture of beach" id = "bpic" style = "display:none;">
+		<img src = "earth.jpg" alt = "picture of beach" id = "ppic" style = "display:none;">
+		<img src = "dojo.jpg" alt = "picture of beach" id = "dpic" style = "display:none;">
+		<img src = "forest.jpg" alt = "picture of beach" id = "fpic" style = "display:none;">
+		<img src = "matrix.jpg" alt = "picture of beach" id = "mpic" style = "display:none;">
+		<img src = "snow.jpg" alt = "picture of beach" id = "spic" style = "display:none;">
+
+		<script>
+			$("#beach").hover(function (){
+				$("#bpic").slideToggle()
+			})
+			$("#planet").hover(function (){
+				$("#ppic").slideToggle()
+			})
+			$("#dojo").hover(function (){
+				$("#dpic").slideToggle()
+			})
+			$("#forest").hover(function (){
+				$("#fpic").slideToggle()
+			})
+			$("#matrix").hover(function (){
+				$("#mpic").slideToggle()
+			})
+			$("#snow").hover(function (){
+				$("#spic").slideToggle()
+			})
+</script>
 	</div>
 
-	
 
-	
+
+
 	</HEADER>
 
 </body>
